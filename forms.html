@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Registro</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Company - v4.10.0
+  * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/logo.png" class="img-fluid" alt="" id="logo"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex">
+     <a href="https://www.facebook.com/CnodNacional?mibextid=ZbWKwL" target="_blank"class="facebook"><i class="bu bi-facebook"></i></a></div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+<section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+          
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+
+        
+       
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+         
+          
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section>
+    
+    <!-- ======= Features Section ======= -->
+  <section id="team" class="team section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Afiliarse<strong></h2>
+        
+<form class="row g-3" action="register.php" method="[POST]">
+
+  <div class="col-12">
+  <label for="nameInput" class="form-label">Datos del Afiliado</label>
+</div>
+
+
+
+<div class="col-6">
+  
+   <label for="lastaFaInput" class="form-label">Apellido paterno</label>
+  <input type="text" class="form-control" id="lastaFaInput" placeholder="Apellido paterno"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{5,64}" required>
+
+ 
+</div>
+
+<div class="col-6">
+  
+   <label for="lastaMoInput" class="form-label">Apellido materno</label>
+  <input type="text" class="form-control" id="lastaMoInput" placeholder="Apellido materno"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{5,64}" required>
+</div>
+
+
+
+<div class="col-6">
+  <label for="nameInput" class="form-label">Nombres</label>
+  <input type="text" class="form-control" id="nameInput" placeholder="Nombre"   pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{4,48}" required>
+</div>
+
+<div class="col-6">
+  <label for="nameInput" class="form-label">Fecha de Afiliacion</label>
+  <input type="text" class="form-control" id="nameInput" placeholder="Fecha de Afiliacion"   pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{4,48}" required>
+</div>
+
+<div class="col-6">
+
+  <label for="phoneInput" class="form-label">Clave de elector</label>
+  <input type="Phone" class="form-control" id="phoneInput" placeholder="Clave de elector" 
+ minlength="12" maxlength="13" required>
+
+
+</div>
+
+<div class="col-6">
+
+  <label for="phoneInput" class="form-label">CURP</label>
+<input type="text" class="form-control" id="lastaFaInput" placeholder="CURP"  minlength="18" maxlength="18" required>
+
+
+</div>
+
+<div class="col-12">
+  <label for="nameInput" class="form-label">Domicilio</label>
+</div>
+
+  
+  <div class="col-6">
+  <label for="nameInput" class="form-label">Calle</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="Calle" 
+
+minlength="12" maxlength="13" 
+    required>
+</div>
+ <div class="col-6">
+  <label for="nameInput" class="form-label">Colonia</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="Colonia"  required>
+</div>
+
+
+<div class="col-6">
+  <label for="nameInput" class="form-label">NO.EXT.</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="NO.EXT."  required>
+</div>
+ <div class="col-6">
+  <label for="nameInput" class="form-label">NO.INT.(Opcional)</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="NO.INT."  >
+</div>
+ 
+
+<div class="col-6">
+  <label for="nameInput" class="form-label">Delegación o Municipio</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="Delegación o Municipio"  required>
+</div>
+ <div class="col-6">
+  <label for="nameInput" class="form-label">Entidad</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="Entidad"  required>
+</div>
+
+ <div class="col-6">
+  <label for="nameInput" class="form-label">C.P.</label>
+   <input type="text" class="form-control" id="nameInput" placeholder="C.P."   pattern="^[0-9]{5}$"
+
+   minlength="5" maxlength="5" 
+   required>
+</div>
+
+
+
+
+
+
+
+<div class="col-12">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" required>
+  <label class="form-check-label" for="flexCheckIndeterminate">
+    Acepto Afiliacion
+  </label>
+</div>
+<div class="col-6" >
+   <button class="btn btn-success btn-xl" type="enviar" >Aceptar</button>
+</div>
+<div class="col-6">
+  <button class="btn btn-danger btn-xl" type="reset">Cancelar</button>
+</div>
+
+
+
+
+
+</form>
+
+
+
+
+
+        </div>
+
+      
+
+
+
+      </div>
+    </section><!-- End Features Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+ <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h3 class="logo me-auto"><a href="index.html"><img src="assets/img/logo.png" class="img-fluid" alt="" id="logo"></a></h3>
+            <p>
+             
+
+              <strong id="stronger">Teléfonos</strong><br>
+                 <a href="https://api.whatsapp.com/send/?phone=%3C%2B52+5569796274%3E&text&app_absent=0%3E" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="tel:5569796274">+52 5569796274</a> <br>
+               <a href="https://api.whatsapp.com/send/?phone=%3C%2B52+5526635323%3E&text&app_absent=0%3E" class="facebook" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="tel:5569796274">+52 5526635323</a> <br>
+              <strong id="stronger">Correos electrónico</strong><br>
+              <a href="mailto:atencion_servicios@cnodnacional.com.mx">atencion_servicios@cnodnacional.com.mx </a> <br>
+              <a href="mailto:eventos_deportes@cnodnacional.com.mx">eventos_deportes@cnodnacional.com.mx</a> <br>
+               <a href="mailto:relacionespublicas@cnodnacional.com.mx">relacionespublicas@cnodnacional.com.mx</a> <br>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4" id="hola">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Departamento de Sistemas</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+          Designed by <a href="https://www.facebook.com/CnodNacional?mibextid=ZbWKwL">Consejo Nacional de Organización
+Deportiva</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+    
+        <a href="https://www.facebook.com/CnodNacional?mibextid=ZbWKwL" class="facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+ <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-caret-up-fill"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
